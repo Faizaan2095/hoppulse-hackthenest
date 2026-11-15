@@ -16,6 +16,15 @@ instead of the hosted Base44 runtime.
 | `src/app.css` | Compiled design system (Tailwind output, DM Sans, emerald-on-black theme) |
 | `data/state.json` | App data — created on first boot, delete it to reseed the demo shops |
 
+## Documentation
+
+| Document | Read it for |
+| --- | --- |
+| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Process topology, request and webhook flow, JSON store, tenancy, limitations |
+| [`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md) | Running locally and in Docker, env vars, resetting data, API examples, troubleshooting |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | Commit convention, project conventions, pre-PR checks |
+| [`CHANGELOG.md`](CHANGELOG.md) | What has changed and what the app currently does |
+
 ## Running it
 
 ```bash
